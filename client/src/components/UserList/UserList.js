@@ -5,8 +5,8 @@ import onlineIcon from '../../icons/onlineIcon.png';
 const UserList = ({ users }) => (
     <div className="textContainer">
       {
-        users
-          ? (
+        users ?
+        (
             <div>
               <h1>People currently chatting:</h1>
               <div className="activeContainer">
@@ -20,8 +20,9 @@ const UserList = ({ users }) => (
                 </h2>
               </div>
             </div>
-          )
-          : null
+        )
+        : 
+        null
       }
     </div>
   );

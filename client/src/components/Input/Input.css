@@ -5,7 +5,7 @@
   
   .input {
     border: none;
-    border-radius: 0;
+    border-radius: 4px;
     padding: 5%;
     width: 80%;
     font-size: 1.2em;
@@ -19,9 +19,10 @@
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: #7d42b8;
     padding: 20px;
     display: inline-block;
     border: none;
+    border-radius: 0 0 4px 0;
     width: 20%;
   }
